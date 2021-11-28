@@ -93,7 +93,7 @@ include_directories ("${struct_SOURCE_DIR}/include"
                      ${GMOCK_INCLUDE_DIRS}
                      )
 
-add_library (struct
+	     add_library (struct SHARED
              src/struct_endian.c
              src/struct.c
              )
